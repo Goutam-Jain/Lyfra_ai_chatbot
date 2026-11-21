@@ -19,9 +19,9 @@ A full-stack chatbot. The **React** frontend talks to a **FastAPI** backend. The
 
 | Tier | URL |
 |---|---|
-| Frontend | `TODO: add after deploying` |
-| Backend  | `TODO: add after deploying` (health: `<backend>/health`) |
-| Demo video | `TODO` |
+| Frontend | `.` |
+| Backend  | `.` (health: `/health`) |
+| Demo video | `.` |
 
 ---
 
@@ -183,8 +183,8 @@ curl -s -X POST $B/chat -H 'Content-Type: application/json' -d '{"session_id":' 
 
 ## 5. Setup Used
 
-* **Editor:** `TODO: your editor (e.g. VS Code)`
-* **AI tools:** Claude Code (Claude Opus 5.5) in the Claude desktop app, used for architecture, implementation, tests and documentation.
+* **Editor:** `VS Code`
+* **AI tools:** Claude
 * **Stack:** Python 3.12, FastAPI, LiteLLM 1.110, SQLite, React 19 with Vite and TypeScript, nginx, Docker Compose.
 
 ---
