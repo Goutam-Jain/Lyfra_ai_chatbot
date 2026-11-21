@@ -19,9 +19,9 @@ A full-stack chatbot. The **React** frontend talks to a **FastAPI** backend. The
 
 | Tier | URL |
 |---|---|
-| Frontend | `.` |
-| Backend  | `.` (health: `/health`) |
-| Demo video | `.` |
+| Frontend | `https://lyfra-ai-chatbot.vercel.app` |
+| Backend  | `https://lyfra-chat-backend.onrender.com` (health: `https://lyfra-chat-backend.onrender.com/health`) |
+| Demo video | `https://drive.google.com/file/d/1I_eP8UtT0slQ1-105V3wRwJy1hUwcRMQ/view?usp=drivesdk` |
 
 ---
 
