@@ -66,7 +66,7 @@ cd backend && .venv/bin/python -m pytest
 | Variable | Default | Meaning |
 |---|---|---|
 | `LLM_API_KEYS` | (required) | Comma-separated key pool, at least 2. Ids are `key_1`, `key_2`, … in this order. |
-| `LLM_MODEL` | `gemini/gemini-2.5-flash` | LiteLLM model name used for every key. |
+| `LLM_MODEL` | `groq/openai/gpt-oss-120b` | LiteLLM model name used for every key. |
 | `LLM_MODELS` | (empty) | Optional. One model per key, in the same order, so the pool can span several models or providers (e.g. `gemini/gemini-2.5-flash,groq/llama-3.3-70b-versatile`). |
 | `LLM_API_BASE` | (empty) | Optional custom base URL (OpenAI-compatible gateways). |
 | `LLM_TIMEOUT_SECONDS` | `30` | Timeout per provider call. A timeout also triggers failover. |
